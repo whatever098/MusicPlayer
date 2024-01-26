@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/final_work">
+        <file>images/client.png</file>
+        <file>images/player-skip-back.png</file>
+        <file>images/player-skip-forward.png</file>
+        <file>images/volume.png</file>
+        <file>images/volume_close.png</file>
+        <file>images/pause.png</file>
+        <file>images/player.png</file>
+        <file>images/loop.png</file>
+        <file>images/random.png</file>
+        <file>images/repeatone.png</file>
+        <file>images/sequential.png</file>
+        <file>images/background.png</file>
+        <file>images/musiclist.png</file>
+        <file>images/playing.png</file>
+        <file>images/background.jpg</file>
+        <file>images/search.png</file>
+    </qresource>
+</RCC>

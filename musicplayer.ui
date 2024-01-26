@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MusicPlayerUI</class>
+ <widget class="QWidget" name="MusicPlayerUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1656</width>
+    <height>996</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_4">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout_3" columnstretch="1,2">
+     <item row="0" column="0">
+      <layout class="QGridLayout" name="gridLayout_2" rowstretch="3,0,0,0,0" columnstretch="0">
+       <item row="0" column="0">
+        <widget class="QGraphicsView" name="albumImageView">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>10000</width>
+           <height>10000</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border:none;</string>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="interactive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="songInfoLable">
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;华文新魏&quot;;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
+         </property>
+         <property name="text">
+          <string>当前播放列表(仅查看，若要通过列表切换音乐请点击“音乐列表”)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QListWidget" name="current_list">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="1">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label_3i">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:transparent;
+font: 12pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>孤勇者</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2i">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:transparent;
+font: 12pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>孤勇者</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_1i">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:transparent;
+font: 12pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>孤勇者</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_i">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>16</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:transparent;
+color: blue; font-weight: bold;
+font: 16pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>孤勇者</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_i1">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:transparent;
+font: 12pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>孤勇者</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_i2">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:transparent;
+font: 12pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>孤勇者</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_i3">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:transparent;
+font: 12pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>孤勇者</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="0" colspan="2">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,6,1">
+         <item>
+          <widget class="QLabel" name="current_time">
+           <property name="styleSheet">
+            <string notr="true">font: 16pt &quot;Arial&quot;;</string>
+           </property>
+           <property name="text">
+            <string>00：00</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSlider" name="positionSlider">
+           <property name="styleSheet">
+            <string notr="true">QSlider::groove:horizontal {
+  border: 0px solid #bbb;
+}
+ 
+QSlider::sub-page:horizontal {
+  background: rgb(255,255,0);
+  border-radius: 0px;
+  margin-top: 8px;
+  margin-bottom: 9px;
+}
+ 
+QSlider::add-page:horizontal {
+  background: rgb(0,0,0);
+  border: 0px solid #777; 
+  border-radius: 2px; 
+  margin-top: 8px; 
+  margin-bottom: 9px; 
+}
+ 
+QSlider::handle:horizontal { 
+  background: rgb(255,255,255); 
+  border: 1px solid rgba(102,102,102,102); 
+  width: 8px; 
+  height: 8px; 
+  border-radius: 5px; 
+  margin-top: 2px; 
+  margin-bottom: 2px; 
+}
+ 
+QSlider::handle:horizontal:hover { 
+  background: rgb(255,255,0); 
+  border: 1px solid rgba(102,102,102,102); 
+  border-radius: 5px; 
+}
+ 
+QSlider::sub-page:horizontal:disabled { 
+  background: #bbb; 
+  border-color: #999; 
+}
+ 
+QSlider::add-page:horizontal:disabled { 
+  background: #eee; 
+  border-color: #999; 
+}
+ 
+QSlider::handle:horizontal:disabled { 
+  background: #eee; 
+  border: 1px solid #aaa; 
+  border-radius: 4px; 
+}</string>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="total_time">
+           <property name="styleSheet">
+            <string notr="true">font: 16pt &quot;Arial&quot;;</string>
+           </property>
+           <property name="text">
+            <string>00：00</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout" columnstretch="3,1,0">
+         <item row="0" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QPushButton" name="previousButton">
+             <property name="styleSheet">
+              <string notr="true">QPushButton:hover{background-color: rgb(20, 62, 134);border:none;color:rgb(255, 255, 255);}
+QPushButton:checked{background-color: rgb(20, 62, 134);border:none;color:rgb(255, 255, 255);}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="musicplayer.qrc">
+               <normaloff>:/final_work/images/player-skip-back.png</normaloff>:/final_work/images/player-skip-back.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="playButton">
+             <property name="styleSheet">
+              <string notr="true">QPushButton:hover{background-color: rgb(20, 62, 134);border:none;color:rgb(255, 255, 255);}
+QPushButton:checked{background-color: rgb(20, 62, 134);border:none;color:rgb(255, 255, 255);}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="musicplayer.qrc">
+               <normaloff>:/final_work/images/player.png</normaloff>:/final_work/images/player.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>45</width>
+               <height>45</height>
+              </size>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="nextButton">
+             <property name="styleSheet">
+              <string notr="true">QPushButton:hover{background-color: rgb(20, 62, 134);border:none;color:rgb(255, 255, 255);}
+QPushButton:checked{background-color: rgb(20, 62, 134);border:none;color:rgb(255, 255, 255);}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="musicplayer.qrc">
+               <normaloff>:/final_work/images/player-skip-forward.png</normaloff>:/final_work/images/player-skip-forward.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="playModeButton">
+             <property name="styleSheet">
+              <string notr="true">QPushButton:hover{background-color: rgb(20, 62, 134);border:none;color:rgb(255, 255, 255);}
+QPushButton:checked{background-color: rgb(20, 62, 134);border:none;color:rgb(255, 255, 255);}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="musicplayer.qrc">
+               <normaloff>:/final_work/images/sequential.png</normaloff>:/final_work/images/sequential.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="0" column="1">
+          <layout class="QGridLayout" name="gridLayout_5">
+           <item row="0" column="2">
+            <widget class="QSlider" name="volumeSlider">
+             <property name="styleSheet">
+              <string notr="true">QSlider::groove:horizontal {
+  border: 0px solid #bbb;
+}
+ 
+QSlider::sub-page:horizontal {
+  background: rgb(255,255,0);
+  border-radius: 0px;
+  margin-top: 8px;
+  margin-bottom: 9px;
+}
+ 
+QSlider::add-page:horizontal {
+  background: rgb(0,0,0);
+  border: 0px solid #777; 
+  border-radius: 2px; 
+  margin-top: 8px; 
+  margin-bottom: 9px; 
+}
+ 
+QSlider::handle:horizontal { 
+  background: rgb(255,255,255); 
+  border: 1px solid rgba(102,102,102,102); 
+  width: 8px; 
+  height: 8px; 
+  border-radius: 5px; 
+  margin-top: 2px; 
+  margin-bottom: 2px; 
+}
+ 
+QSlider::handle:horizontal:hover { 
+  background: rgb(255,255,0); 
+  border: 1px solid rgba(102,102,102,102); 
+  border-radius: 5px; 
+}
+ 
+QSlider::sub-page:horizontal:disabled { 
+  background: #bbb; 
+  border-color: #999; 
+}
+ 
+QSlider::add-page:horizontal:disabled { 
+  background: #eee; 
+  border-color: #999; 
+}
+ 
+QSlider::handle:horizontal:disabled { 
+  background: #eee; 
+  border: 1px solid #aaa; 
+  border-radius: 4px; 
+}</string>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QPushButton" name="mutedButton">
+             <property name="styleSheet">
+              <string notr="true">QPushButton:hover{background-color: rgb(20, 62, 134);border:none;color:rgb(255, 255, 255);}
+QPushButton:checked{background-color: rgb(20, 62, 134);border:none;color:rgb(255, 255, 255);}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="musicplayer.qrc">
+               <normaloff>:/final_work/images/volume.png</normaloff>:/final_work/images/volume.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLabel" name="volumelabel">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>30</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 16pt &quot;Arial&quot;;</string>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
+           </property>
+           <property name="text">
+            <string>50</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="musicplayer.qrc"/>
+ </resources>
+ <connections/>
+</ui>
